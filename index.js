@@ -5,7 +5,7 @@ import {
   inputElement,
   TaskListElement,
   TaskListLink,
-} from "./scripts/elements";
+} from "./scripts/elements.js";
 
 const fetchData = (key) => {
   const data = localStorage.getItem(key);
